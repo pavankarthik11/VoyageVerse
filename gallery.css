@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin: 275px;
+}
+h2 {
+    color: grey;
+}
+
+#gallery-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+}
+
+#empty-message {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #666;
+}
